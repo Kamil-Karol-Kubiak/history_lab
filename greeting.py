@@ -1,4 +1,4 @@
-def greet(name):
+def greet(name, course):
     print("Hello, %s!" % name)
-
-greet("student")
+    print("Welcome to %s!" % course)
+greet("student", "Python course")
